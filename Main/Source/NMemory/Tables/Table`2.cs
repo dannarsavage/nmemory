@@ -763,6 +763,16 @@ namespace NMemory.Tables
                 return true;
             }
 
+            if (type == typeof(NMemory.Spatial.DbGeography))
+            {
+                return true;
+            }
+
+            if (type == typeof(NMemory.Spatial.DbGeometry))
+            {
+                return true;
+            }
+
             if (type == typeof(byte[]))
             {
                 throw new ArgumentException(

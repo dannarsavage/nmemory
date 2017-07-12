@@ -64,6 +64,10 @@
     <Compile Include="Constraints\GeneratedGuidConstraint.cs" />
     <Compile Include="Constraints\IConstraintFactory`1.cs" />
     <Compile Include="Constraints\NotNullableConstraint.cs" />
+    <Compile Include="Spatial\Check.cs" />
+    <Compile Include="Spatial\DbGeography.cs" />
+    <Compile Include="Spatial\DbGeographyWellKnownValue.cs" />
+    <Compile Include="Spatial\DbGeometry.cs" />
     <Compile Include="Diagnostics\Messages\JoinArgumentsOrderSwappedMessage.cs" />
     <Compile Include="Diagnostics\Messages\JoinOperatorsSwappedMessage.cs" />
     <Compile Include="Exceptions\ExceptionMessages.cs" />
@@ -220,6 +224,9 @@
     <Compile Include="Services\CombinedKeyInfoService.cs" />
     <Compile Include="Services\ServiceProviderBase.cs" />
     <Compile Include="Services\Contracts\IKeyInfoService.cs" />
+    <Compile Include="Spatial\DbGeometryWellKnownValue.cs" />
+    <Compile Include="Spatial\DbSpatialServices.cs" />
+    <Compile Include="Spatial\DefaultSpatialServices.cs" />
     <Compile Include="StoredProcedures\StoredProcedureBase.cs" />
     <Compile Include="Services\DefaultTableService.cs" />
     <Compile Include="Modularity\IConcurrencyManager.cs" />
